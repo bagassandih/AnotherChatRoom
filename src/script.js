@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000/'); // Change with url of server
+const socket = io('https://bagassandih.github.io/anotherChatRoom/'); // Change with url of server
 const tempLoginChat = document.querySelector('.chat-container').innerHTML;
 const chatContainer = document.querySelector('.chat-container');
 const loginContainer = document.querySelector('.login-container');
