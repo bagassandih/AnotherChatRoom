@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Chat Room</title>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@4/bulma.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="list-users" class="sidepanel">
+    </div>
+      
+    <div class="login-container">
+    </div>
+
+    <div class="chat-container" hidden>
+        <div class="chat-header">
+            <h2>Logged as <span id="title-name"></span></h2>
+            <button class="openbtn" onclick="openNav()"><span id="users-count">0</span> users online</button>  
+        </div>
+
+        <div class="chat-body" id="chat">
+        </div>
+
+        <audio src="./sound/pop.mp3" hidden id="receive-audio">
+            <source src="audio.mp3" type="audio/mp3">
+          </audio>
+
+        <div class="input-container">
+            <form action="javascript:send()" autocomplete="off">
+                <input type="text" class="input-field" placeholder="Type your message here" id="get-text">
+                <input type="submit" class="send-button" value="Send">
+            </form>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="./scipt.js"></script>
+</body>
+
+</html>
