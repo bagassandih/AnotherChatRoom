@@ -19,7 +19,7 @@ This project aims to demonstrate real-time communication through a group chat ap
 Clone this repository to your local machine.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/bagassandih/anotherChatRoom.git
 ```
 
 Navigate to the project directory.
