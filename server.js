@@ -9,10 +9,10 @@ const io = socketIO(server);
 
 let listUsers = [];
 
-app.use(express.static(path.join(__dirname, '/src/')));
+app.use(express.static(path.join(__dirname, './')));
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + './src/index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 io.on('connection', (socket) => {
