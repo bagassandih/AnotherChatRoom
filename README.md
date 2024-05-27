@@ -3,11 +3,11 @@
 ![App Screenshot](https://i.ibb.co/n7247P7/Screenshot-2024-02-17-092336.png)
 ![App Screenshot](https://i.ibb.co/2nCDHZw/warisan.png) 
 
-#### Overview:
+## Overview:
 
 This project aims to demonstrate real-time communication through a group chat application. It utilizes basic web technologies such as HTML, CSS, and JavaScript for the client-side interface, while the server is powered by Node.js along with the Socket.io and express.js library for handling real-time events.
 
-#### Features:
+## Features:
 - Real-time Messaging: Users can send and receive messages instantly, creating a seamless chat experience.
 - Group Chat Rooms: The application supports multiple chat rooms, allowing users to join different conversations based on their interests or topics.
 - No Authentication: Users can join room without register or sign-up, just input the name.
